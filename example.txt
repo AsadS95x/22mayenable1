@@ -1,2 +1,2 @@
 Hi, this is not anything useful.
-Adding new details. to test a pull.
+Adding new details to test a pull.

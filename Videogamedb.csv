@@ -1,0 +1,8 @@
+Id,Name,Shape Library,Page ID,Contained By,Group,Line Source,Line Destination,Source Arrow,Destination Arrow,Status,Text Area 1,Text Area 2,Text Area 3,Text Area 4,Text Area 5,Text Area 6,Text Area 7,Text Area 8,Text Area 9,Text Area 10,Text Area 11,Text Area 12,Text Area 13,Text Area 14,Text Area 15,Text Area 16,Text Area 17,Text Area 18,Text Area 19
+1,Document,,,,,,,,,DRAFT,UML class,,,,,,,,,,,,,,,,,,
+2,Page,,,,,,,,,,UML Class,,,,,,,,,,,,,,,,,,
+3,Entity,Entity Relationship,2,,,,,,,,CustomerDetails,Primary,Customer_ID,INT,,customer_name,VARCHAR(30),,email,VARCHAR(50),,Address,VARCHAR(50),,postcode,VARCHAR(9),,,
+4,Entity,Entity Relationship,2,,,,,,,,ProductDetails,Primary,product_id,Type,,product_name,Type,,product_rating,Type,,genre,Type,,product_cost,Type,,stock,Type
+5,Entity,Entity Relationship,2,,,,,,,,orders,Primary,order_id,INT,FOREIGN,customer_id,INT,FOREIGN,product_id,INT,,orderdate,DATETIME,,ordercost,INT,,,
+6,Line,,2,,,3,5,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,
+7,Line,,2,,,4,5,CFN ERD One Arrow,CFN ERD Many Arrow,,,,,,,,,,,,,,,,,,,,
